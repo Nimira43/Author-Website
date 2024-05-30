@@ -1,4 +1,32 @@
-// Font
 $font-family-sans-serif: 'Mulish', sans-serif;
+
+$primary: #0da7e4;
+$secondary: #ff4500;
+$dark: #333;
+$light: #eee;
+
+$navbar-padding-y: 1rem;
+$navbar-dark-color: #f5f5dc;
+$navbar-dark-hover-color: $secondary;
+
+$button-radius: 10px;
+$button-padding-x: 30px;
+$button-padding-y: 10px;
+
+$btn-border-radius: $button-radius;
+$btn-border-radius-sm: $button-radius;
+$btn-border-radius-lg: $button-radius;
+$btn-padding-x: $button-padding-x;
+$btn-padding-x-sm: $button-padding-x;
+$btn-padding-x-lg: $button-padding-x;
+$btn-padding-y: $button-padding-y;
+$btn-padding-y-sm: $button-padding-y;
+$btn-padding-y-lg: $button-padding-y;
+$focus-ring-width: 1px;
+$focus-ring-opacity: .25;
+$focus-ring-color: rgba($secondary, $focus-ring-opacity);
+$focus-ring-blur: 0;
+$navbar-toggle-border-radius: 5px;
+
 
 @import '../node_modules/bootstrap/scss/bootstrap';
