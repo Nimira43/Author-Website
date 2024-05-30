@@ -1,10 +1,28 @@
-$primary:       #111 !default;
-$secondary:     beige !default;
-$success:       #1ff31f !default;
-$info:          #188cd4 !default;
-$warning:       #ffd700 !default;
-$danger:        red !default;
+$font-family-sans-serif: 'Mulish', sans-serif;
+
+$primary:       orangered !default;
+$secondary:     #1aa7df !default;
 $light:         #eee !default;
-$dark:          #3d1101 !default;
+$dark:          #333 !default;
+
+$navbar-padding-y: 1rem;
+$navbar-dark-color: beige;
+$navbar-dark-hover-color: $secondary;
+
+$button-radius: 10px;
+$button-padding-x: 15px;
+$button-padding-y: 5px;
+
+$btn-border-radius: $button-radius;
+$btn-border-radius-sm: $button-radius;
+$btn-border-radius-lg: $button-radius;
+$btn-padding-x: $button-padding-x;
+$btn-padding-x-sm: $button-padding-x;
+$btn-padding-x-lg: $button-padding-x;
+$btn-padding-y: $button-padding-y;
+$btn-padding-y-sm: $button-padding-y;
+$btn-padding-y-lg: $button-padding-y;
+$navbar-toggler-border-radius: 5px;
+
 
 @import '../node_modules/bootstrap/scss/bootstrap';
